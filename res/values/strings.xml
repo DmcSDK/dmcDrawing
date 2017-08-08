@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">私人订制·小破孩</string>
+    <string name="image">图片</string>
+    <string name="select">请选择画笔的粗细</string>
+    <string name="hint">请输入祝福语</string>
+    <string name="hint2">此功能暂未开放，敬请期待更新^_^</string>
+    <string name="title_share">分享私人订制</string>
+    <string name="title_main">自制动漫传情</string>
+    <string name="title_main2">绘画板</string>
+    <string name="title_gif">小破孩动态表情</string>
+    <string name="title_choiceness">小破孩美图精选</string>
+    <string name="title_more">更多内容</string>
+    <string name="title_previewer">作品分享</string>
+	<string name="facebook_app_id">11</string>
+	<string name="qq">QQ.微信.陌陌在更多里面哦.^_^.</string>
+</resources>

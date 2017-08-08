@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/yellow" >
+    <net.pobbay.view.MyButton
+        android:id="@+id/btn_titlebar_left2"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+      android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/button18" />
+
+    <TextView
+        android:id="@+id/tv_titlebar_title2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="@string/title_main2"
+        />
+
+    <net.pobbay.view.MyButton
+        android:id="@+id/btn_oksave"
+        android:layout_width="113dp"
+        android:layout_height="33dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/buttonok1"/>
+    </RelativeLayout>
+</LinearLayout>

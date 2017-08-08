@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300dip"
+    android:background="@drawable/dialog3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/lock"
+            android:textSize="24dip"
+            android:background="@drawable/text_bg12x"
+            android:gravity="center_vertical"
+            android:layout_width="250dip"
+            android:layout_height="120dip"
+            android:text="积分达600才可解锁所有素材\n您目前拥有0个积分" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="110dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/lock_go"
+            android:background="@drawable/alertview_bg"
+            android:text="免费获取积分" />
+    </LinearLayout>
+	  <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+        android:layout_gravity="center_horizontal|bottom" >
+
+        <Button
+            android:id="@+id/lock_over"
+            android:layout_width="110dip"
+            android:layout_height="wrap_content"
+           	android:background="@drawable/alertview_bg"
+            android:text="取消"
+            />
+    </LinearLayout>
+</LinearLayout>

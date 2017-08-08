@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root count="2" path="/" >
+    <dir0 title="背景" count="10" name="0">
+	    <dir1 title="抽象" count="16" name="0" imgname="cx">
+	        <img title="抽象" filename="cx_1.png" thumbname="cx_1_.png" />
+	    </dir1>
+	    <dir1 title="怀旧" count="16" name="1" imgname="hj">
+	    </dir1>
+	    <dir1 title="简约" count="16" name="2" imgname="bjy">
+	    </dir1>
+	    <dir1 title="浪漫" count="16" name="3" imgname="lm">
+	    </dir1>
+	    <dir1 title="飘渺" count="16" name="4" imgname="pm">
+	    </dir1>
+	    <dir1 title="热烈" count="16" name="5" imgname="rl">
+	    </dir1>
+	    <dir1 title="色块" count="16" name="6" imgname="sk">
+	    </dir1>
+	    <dir1 title="温馨" count="16" name="7" imgname="wx">
+	    </dir1>
+	    <dir1 title="现代" count="16" name="8" imgname="xd">
+	    </dir1>
+	    <dir1 title="中国风" count="8" name="9" imgname="bzgf">
+	    </dir1>
+    </dir0>
+
+    <dir0 title="人物" count="18" name="1">
+		<dir1 title="中国风" count="20" name="0" imgname="zgf"/>
+		<dir1 title="问候-春节" count="20" name="1" imgname="cj"/>
+		<dir1 title="问候-情人节" count="20" name="2" imgname="qrj"/>
+		<dir1 title="问候-元宵节" count="10" name="3" imgname="yxj"/>
+		<dir1 title="问候-端午节" count="10" name="4" imgname="dw"/>
+		<dir1 title="问候-妇女节" count="20" name="5" imgname="fnj"/>
+		<dir1 title="问候-光棍节" count="20" name="6" imgname="ggj"/>
+		<dir1 title="问候-青年节" count="20" name="7" imgname="qnj"/>
+		
+		<dir1 title="传情-思念" count="12" name="8" imgname="sn"/>
+		<dir1 title="传情-关心" count="15" name="9" imgname="gx"/>
+		<dir1 title="传情-得意" count="10" name="10" imgname="dy"/>
+		<dir1 title="传情-道歉" count="12" name="11" imgname="dq"/>
+		<dir1 title="传情-倾诉" count="16" name="12" imgname="qs"/>
+		<dir1 title="传情-表白" count="20" name="13" imgname="bb"/>
+		<dir1 title="传情-逗笑" count="20" name="14" imgname="dx"/>
+		<dir1 title="传情-卖萌" count="20" name="15" imgname="mm"/>
+		
+		<dir1 title="搞怪-整蛊" count="16" name="16" imgname="zg"/>
+		<dir1 title="神马" count="20" name="17" imgname="sb"/>
+    </dir0>
+	
+	<dir0 title="成品" count="2" name="2">
+	    <dir1 title="经典" count="20" name="0" imgname="cp"/>
+	    <dir1 title="精选" count="20" name="1" imgname="jcp"/>
+    </dir0>
+</root>

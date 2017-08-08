@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar_style0" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:id="@+id/table_ca"
+        android:background="@color/yellow">
+
+        <net.pobbay.view.MyButton
+            android:id="@+id/btn_gallery"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/button25" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/simple_fragment"
+        android:layout_width="match_parent"
+        android:layout_above="@id/table_ca"
+        android:layout_height="match_parent"
+        android:background="@color/yellow2">
+        <TextView
+            android:id="@+id/textView_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载中..."
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</RelativeLayout>
+
+</LinearLayout>

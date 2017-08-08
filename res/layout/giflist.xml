@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/choiceness"
+    android:orientation="vertical"
+    android:background="@color/yellow2">
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar_style0" />
+
+    <ListView
+        android:layout_below="@+id/title"
+    android:id="@+id/gif_listView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="@android:color/transparent"/>
+    <TextView
+        android:id="@+id/textView_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载中..."
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+</RelativeLayout>

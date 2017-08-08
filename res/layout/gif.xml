@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar_style0" />
+
+   <RelativeLayout
+        android:id="@+id/contener_gif"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/loading" >
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/yellow"
+        android:gravity="center_horizontal"
+       >
+        <net.pobbay.view.MyButton
+            android:id="@+id/gif_btn_save"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/button12" />
+    	<net.pobbay.view.MyButton
+            android:id="@+id/gif_btn_sms"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/button13" />
+        <net.pobbay.view.MyButton
+            android:id="@+id/gif_btn_preview"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/button14" />
+        
+    </LinearLayout>
+
+</LinearLayout>

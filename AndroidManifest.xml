@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.pobbay.mms"
+    android:versionCode="9"
+    android:versionName="1.0.9" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" >
+    </uses-permission>
+
+    <!-- ###################声明SDK使用的相关权限###################### -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 检测网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取mac地址作为用户的备用唯一标识 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 获取用户手机的IMEI，用来唯一的标识用户。 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 缓存资源优先存入SDcard -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许应用程序联网，以便向我们的服务器端发送数据。 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于评论模块分享位置信息 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于评论模块分享位置信息 -->
+
+
+    <!-- 相册图库 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+
+ 
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="false"
+        android:smallScreens="false" />
+
+    <application
+        android:name="net.pobbay.util.ContextAll"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.baidu.mobads.AppActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity
+            android:name="net.pobbay.mms.Designer"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.mms.ImagePicker"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.mms.Previewer"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.mms.HomePage"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.mms.HelpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.Drawing"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.MoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.MyGallery"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.GifViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.GifListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.GifgridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.ChoicenessGridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.ChoicenessListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.ChoicenessViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.view.MyCamera"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="net.pobbay.mms.Welcome"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!-- 分享编辑页 -->
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity android:name="com.tencent.tauth.AuthActivity" />
+
+        <!-- ###################添加UmengAppkey###################### -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="52d899e056240b6401085be8" >
+        </meta-data>
+
+        <!-- facebook相关 -->
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 这里填写你的facebook app id,必须声明在string.xml中 -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

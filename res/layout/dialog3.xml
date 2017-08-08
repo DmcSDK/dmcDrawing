@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog3"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	     android:layout_marginTop="15dp">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#DC143C"
+	        android:text="QQ.微信.陌陌在更多里面哦.^_^."
+	        android:textSize="17dip"
+	        android:typeface="sans"/>
+	</LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" >
+
+	   
+        <net.pobbay.view.MyButton
+            android:id="@+id/btn_share0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/btn_share0" />
+
+        <net.pobbay.view.MyButton
+            android:id="@+id/btn_share1"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/btn_share0"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@id/btn_share0"
+            android:src="@drawable/btn_share1" />
+
+        <net.pobbay.view.MyButton
+            android:visibility="invisible"
+            android:id="@+id/btn_share2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/btn_share0"
+            android:layout_below="@id/btn_share0"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/btn_share2" />
+
+        <net.pobbay.view.MyButton
+            android:id="@+id/btn_share3"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/btn_share1"
+            android:layout_alignTop="@id/btn_share2"
+            android:src="@drawable/btn_share4" />
+
+        <net.pobbay.view.MyButton
+            android:id="@+id/btn_share4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_share2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/btn_share5" />
+    </RelativeLayout>
+
+    <net.pobbay.view.MyButton
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_close" />
+
+</LinearLayout>

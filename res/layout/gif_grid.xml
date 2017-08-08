@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gifbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow2"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar_style0" />
+
+    <GridView
+        android:layout_below="@+id/title"
+        android:id="@+id/gif_myGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="145px"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+    <TextView
+        android:id="@+id/textView_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载中..."
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+</RelativeLayout>

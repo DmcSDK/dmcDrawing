@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="选择画笔粗细"/>
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/seekbar"
+        android:maxHeight="10dp"
+        android:thumb="@drawable/seekbar_thumb"
+        android:thumbOffset="0.0dp"  />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <net.pobbay.view.MyButton
+            android:id="@+id/paintwidth"
+            android:layout_width="65dp"
+            android:layout_height="58dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/dlg_btn_ok" />
+    </LinearLayout>
+
+    
+
+</LinearLayout>
